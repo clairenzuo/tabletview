@@ -1,0 +1,69 @@
+.navbar .container-flex .logo {
+    padding-left: 9%;
+    padding-top: 7%;
+}
+
+.container .image-gallery {
+    padding-top: 10%;
+    padding-bottom: 200px;
+    padding-left: 10%;
+}
+
+.container .image-gallery img{
+    width: 90%;
+}
+
+.container .image-gallery p{
+    padding-top: 5%;
+    padding-bottom: 20%;
+    padding-right: 5%;
+} 
+
+
+.artwork-text p{
+    color: white;
+    font-size: 1em;
+    text-align: left;
+    padding-left: 8%;
+}
+
+
+.artwork-text h1{
+    font-size: 3em;
+    padding-left: 8%;
+    padding-top: 23%;
+    color: white;
+}
+
+.artwork-text h2{
+    padding-top: 3%;
+    padding-left: 47%;
+}
+
+.container .image-gallery p{
+    color: white;
+
+}
+
+
+@media screen and (min-width: 850px){
+
+    .artwork-text h1{
+        font-size: 4em;
+        padding-left: 8%;
+        padding-top: 23%;
+        color: white;
+    }
+
+    .artwork-text p{
+        color: white;
+        font-size: 1.75em;
+        text-align: left;
+        padding-left: 8%;
+    }
+
+/* </main> */
+/* <div class="container" style="display: flex;max-width: 1200px;width: 100%;flex-wrap: wrap;">
+  <div class="image-gallery">
+    <img src="plain jane.jpg" alt=""/>
+    <p> Plain Jane By Asap Ferg ft. Nicki Minaj</br> */
