@@ -18,6 +18,7 @@ a {
 .navbar .container-flex .logo {
     padding-left: 9%;
     padding-top: 7%;
+    font-weight: bold;
 }
 
 
@@ -39,6 +40,7 @@ a {
     padding-left: 8%;
     padding-top: 23%;
     color: white;
+    font-weight: bold;
 }
 
 .artwork-text h2{
@@ -49,10 +51,11 @@ a {
 @media screen and (min-width: 850px){
 
     .artwork-text h1{
-        font-size: 4em;
+        font-size: 5em;
         padding-left: 8%;
         padding-top: 23%;
         color: white;
+        font-weight: bold;
     }
 
     .artwork-text p{
@@ -61,4 +64,14 @@ a {
         text-align: left;
         padding-left: 8%;
     }
+/* 
+    .image-gallery img{
+        width: 50%;
+    } */
 
+    .image-gallery {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        justify-content: center;
+    }

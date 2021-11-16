@@ -33,6 +33,7 @@
     padding-left: 8%;
     padding-top: 23%;
     color: white;
+    font-weight: bold;
 }
 
 .artwork-text h2{
@@ -49,10 +50,11 @@
 @media screen and (min-width: 850px){
 
     .artwork-text h1{
-        font-size: 4em;
+        font-size: 5em;
         padding-left: 8%;
         padding-top: 23%;
         color: white;
+        font-weight: bold;
     }
 
     .artwork-text p{
@@ -62,6 +64,11 @@
         padding-left: 8%;
     }
 
+    .image-gallery p {
+        font-size: 2em;
+    }
+
+  
 /* </main> */
 /* <div class="container" style="display: flex;max-width: 1200px;width: 100%;flex-wrap: wrap;">
   <div class="image-gallery">
